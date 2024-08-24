@@ -49,6 +49,11 @@
     font-size: 1em;
   }
   
+  .credit-card-text h1{
+    position: relative;
+    z-index: 2;
+  }
+
   .background-video-container{
     top: 0;
     gap: 0px;
@@ -57,7 +62,7 @@
     height: 100vh;
     overflow: hidden;
     right: 3px;
-    width: 60%;
+    width: 65%;
     bottom: 0;
 
   }

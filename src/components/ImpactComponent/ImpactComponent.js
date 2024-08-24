@@ -27,7 +27,7 @@ const ImpactComponent = () => {
             <div className="testimonial-section">
                 <div className="testimonial-author">
                     <strong>Ratan Tata</strong><br />
-                    Chairperson Tata Group
+                    <span>Chairperson Tata Group</span>
                 </div>
                 <blockquote className="testimonial-text">
                     "BankKaro helped me find the perfect credit card that matches my spending on groceries and travel.

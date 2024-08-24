@@ -60,8 +60,10 @@ const LoungeFinderComponent = () => {
                     <div key={index} className="lounge">
                         <div className='lounge-data'>
                             <img src={lounge.image} alt={lounge.name} className="lounge-image" />
+                            <div className='lounge-details'>
                             <p className="lounge-name">{lounge.name}</p>
                             <p className="lounge-location">{lounge.location}</p>
+                            </div>
                         </div>
                         <img src={lounge.otherImage} alt={lounge.name} className="lounge-other-image" />
                     </div>
