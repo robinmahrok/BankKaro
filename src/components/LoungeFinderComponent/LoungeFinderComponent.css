@@ -1,4 +1,4 @@
-/* LoungeFinder.css */
+
 
 .lounge-container {
     background-color: #121212;;
@@ -87,7 +87,6 @@
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0.3;
-    /* margin-top: -60px; */
 }
 
 .background-video-lounge {

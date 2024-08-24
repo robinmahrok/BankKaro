@@ -1,5 +1,5 @@
 import React from 'react';
-import './headerComponent.css';
+import './HeaderComponent.css';
 import { signInLogo } from '../../images';
 import { FaChevronDown } from "react-icons/fa";
 const Header = () => {
