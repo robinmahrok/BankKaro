@@ -6,6 +6,9 @@
   color: #fff;
   flex-wrap: wrap;
   font-family: "Roboto Slab";
+  position: relative;
+  top: -50px;
+  padding-bottom: 50px;
 }
 
 .footer-left {

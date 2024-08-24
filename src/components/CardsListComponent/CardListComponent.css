@@ -1,6 +1,6 @@
 .credit-card-section-updated {
     font-family: Arial, sans-serif;
-    background-color: #121212;
+    background-color: #0D0D0D;
     color: #fff;
     padding: 40px;
     text-align: left;
@@ -122,7 +122,7 @@
     position: relative;
     width: 100px;
     height: 100px;
-    background-color: #121212;
+    background-color: #0D0D0D;
 }
 
 .rectangle {
@@ -173,7 +173,7 @@
     float: right;
     width: 100px; 
     height: 100px; 
-    background-color: #121212; 
+    background-color: #0D0D0D; 
     top: -100px;
 }
 

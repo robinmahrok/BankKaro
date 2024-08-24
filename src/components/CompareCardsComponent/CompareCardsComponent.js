@@ -14,6 +14,7 @@ const CompareCardsComponent = () => {
             <h1 className="compare-title">Compare Cards</h1>
             <div className="centerpiece-container">
                 <img
+                    width={"27%"}
                     src={podium}
                     alt="podium Card"
                     className=" poduim-card"

@@ -4,20 +4,21 @@
     color: #fff;
     text-align: center;
     overflow: hidden;
+    top: -40px;
     /* Ensures no overflow from positioning */
 }
 
 .compare-title {
-    font-size: 144px;
+    font-size: 120px;
     font-weight: bold;
     color: #d1b892;
     letter-spacing: 5px;
     z-index: 0;
     position: relative;
     margin: 0px;
-    bottom: -65px;
+    bottom: -94px;
     background: linear-gradient(0deg, #0802025c 22.48%, #654e33 46.23%, #0000003d 62.48%, #D1AD83 97.23%);
-    ;
+    left: -35px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -30,6 +31,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    top: 46px;
 }
 
 .centerpiece {
@@ -82,27 +84,26 @@
 .hsbc-card {
     transform: scale(1.1);
     position: relative;
-    left: 18px;
-    width: 260px;
-    top: 95px;
+    left: 155px;
+    width: 160px;
+    top: 60px;
 }
 
 .amex-card {
     transform: scale(1.1);
     position: relative;
     z-index: 15;
-    margin-top: 120px;
-    width: 235px;
-    left: -58px;
+    margin-top: 80px;
+    width: 161px;
+    left: -27px;
 }
 
 .visa-card {
     transform: scale(1.1);
     position: relative;
-    right: 50px;
-    /* Slight offset for positioning */
-    top: 90px;
-    width: 160px;
+    right: 165px;
+    top: 60px;
+    width: 110px;
 }
 
 .card:hover {
@@ -140,7 +141,7 @@
 }
 .podium-mesh-container{
     position: relative;
-    top: -135px;
+    top: -76px;
     left: -90px;
 }
 .mesh-grid-container {
