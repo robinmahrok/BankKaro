@@ -28,6 +28,22 @@ const CardListComponent = () => {
     ];
     return (
         <div className="credit-card-section-updated">
+<div class="layered-rectangles">
+    <div class="rectangle up"></div>
+    <div class="rectangle center"></div>
+    <div class="rectangle down"></div>
+    <div class="rectangle inner"></div>
+    <div class="rectangle outer"></div>
+
+</div>
+<div class="layered-rectangles-right">
+    <div class="rectangle-right up-right"></div>
+    <div class="rectangle-right center-right"></div>
+    <div class="rectangle-right down-right"></div>
+    <div class="rectangle-right inner-right"></div>
+    <div class="rectangle-right outer-right"></div>
+
+</div>
             <h2 style={{ textAlign: "center" }}>Popular credit cards for every<br /> dedicated category</h2>
             <div className="filter-buttons">
                 <button className='selected'>Featured</button>

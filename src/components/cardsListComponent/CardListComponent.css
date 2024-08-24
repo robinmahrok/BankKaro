@@ -118,3 +118,104 @@
     margin: 0px;
   }
   
+  .layered-rectangles {
+    position: relative;
+    width: 100px; /* Adjust based on your needs */
+    height: 100px; /* Adjust based on your needs */
+    background-color: #121212; /* Background color */
+}
+
+.rectangle {
+    position: absolute;
+    border: 1px solid #4d4d4d; /* Border color */
+    border-left: none; /* Remove left border */
+}
+
+.up {
+    width: 60px; /* Width of the largest rectangle */
+    height: 60px; /* Height of the largest rectangle */
+    top: 0px;
+    left: 0px;
+    border-bottom: none;
+}
+
+.down {
+    width: 60px; /* Width of the medium rectangle */
+    height: 60px; /* Height of the medium rectangle */
+    top: 120px;
+    left: 0px;
+    border-top: none;
+}
+
+.center {
+    width: 60px; /* Width of the smallest rectangle */
+    height: 60px; /* Height of the smallest rectangle */
+    top: 60px;
+    left: 60px;
+}
+
+.inner {
+    width: 80px; /* Width of the smallest rectangle */
+    height: 100px; /* Height of the smallest rectangle */
+    top: 40px;
+    left: 0px;
+}
+
+.outer {
+    width: 100px; /* Width of the smallest rectangle */
+    height: 140px; /* Height of the smallest rectangle */
+    top: 20px;
+    left: 0px;
+}
+
+.layered-rectangles-right {
+    position: relative;
+    float: right;
+    width: 100px; /* Adjust based on your needs */
+    height: 100px; /* Adjust based on your needs */
+    background-color: #121212; /* Background color */
+    top: -100px;
+}
+
+.rectangle-right {
+    position: absolute;
+    border: 1px solid #4d4d4d; /* Border color */
+    border-right: none; /* Remove left border */
+}
+
+.up-right {
+    width: 60px; /* Width of the largest rectangle */
+    height: 60px; /* Height of the largest rectangle */
+    top: 0px;
+    right: 0px;
+    border-bottom: none;
+}
+
+.down-right {
+    width: 60px; /* Width of the medium rectangle */
+    height: 60px; /* Height of the medium rectangle */
+    top: 120px;
+    right: 0px;
+    border-top: none;
+}
+
+.center-right {
+    width: 60px; /* Width of the smallest rectangle */
+    height: 60px; /* Height of the smallest rectangle */
+    top: 60px;
+    right: 60px;
+}
+
+.inner-right {
+    width: 80px; /* Width of the smallest rectangle */
+    height: 100px; /* Height of the smallest rectangle */
+    top: 40px;
+    right: 0px;
+}
+
+.outer-right {
+    width: 100px; /* Width of the smallest rectangle */
+    height: 140px; /* Height of the smallest rectangle */
+    top: 20px;
+    right: 0px;
+}
