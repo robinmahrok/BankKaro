@@ -1,0 +1,120 @@
+.credit-card-section-updated {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    padding: 40px;
+    text-align: left;
+}
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .filter-buttons button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  .filter-buttons .selected{
+    background-color: #fff;
+    color: #121212;
+  }
+  
+  .filter-buttons button:hover {
+    background-color: #555;
+  }
+  
+  .card-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-left: -30px;
+  }
+  
+  .card-categories {
+    margin-top: 10px;
+  }
+  
+  .card-category {
+    background-color: #444;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-right: 5px;
+    font-size: 0.8rem;
+  }
+  
+  .cashback {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #fff;
+  }
+  
+  .apply-now {
+    display: inline-block;
+    margin-top: 15px;
+    color: rgb(139 76 28 / 100%);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .apply-now:hover {
+    color: rgb(139 76 28 / 100%);
+  }
+
+  .card0{
+    width: 20%;
+  }
+  .card1{
+    width: 20%;
+  }
+  .card2{
+    width: 20%;
+  }
+  .card3{
+    width: 20%;
+  }  
+  .card4{
+    width: 20%;
+  }
+
+  .cardDetails{
+    margin: 0px;
+  }
+  

@@ -1,0 +1,146 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: rgba(19, 19, 19, 1);
+  color: #fff;
+  flex-wrap: wrap;
+  font-family: "Roboto Slab";
+}
+
+.footer-left {
+  flex: 1 1;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgba(153, 153, 153, 1);
+}
+
+.para1 {
+  margin-bottom: 70px;
+}
+
+.footer-center {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-right {
+  flex: 1;
+  text-align: right;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #1da1f2; /* Twitter blue color for hover effect */
+}
+
+.download-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(38, 38, 38, 1);
+  padding-bottom: 30px;
+}
+
+.download-buttons button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(145deg, #404040, #303030); /* Gradient for the button background */
+  color: #d4b890; /* Text color similar to the image */
+  padding: 10px 25px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset -2px -2px 5px rgba(255, 255, 255, 0.1), 0 4px 6px rgba(0, 0, 0, 0.3); /* Inner shadow and outer shadow for 3D effect */
+  cursor: pointer;
+  font-size: 21px;
+  font-weight: 400;
+  font-family: "Roboto Slab";
+  line-height: 28px;
+  transition: transform 0.2s ease;
+  border: 1px solid #fff;
+}
+
+.download-buttons button:hover {
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.button-icon {
+  margin-right: 8px; /* Spacing between icon and text */
+}
+
+.footer-column {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-column h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer-right p,
+.footer-credits p {
+  margin: 0;
+}
+
+.footer-credits {
+  margin-top: 10px;
+  text-align: right;
+  font-size: 14px;
+  color: #888;
+}
+
+.outer-footer{
+  display: grid;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgba(153, 153, 153, 1);
+}
+
+.footer-column h3{
+  color: #fff;
+  font-weight: 400;
+  font-size: 22px;
+  font-family: "Roboto Slab";
+}
+
+.footer-column li{
+  font-size: 18px;
+}
+
+.footer-center p{
+  background: linear-gradient(145deg, #404040, #303030); /* Gradient background for the element */
+  color: #d4b890; /* Text color */
+  padding: 15px 30px;
+  border-radius: 50px; /* Fully rounded corners */
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5), inset -2px -2px 5px rgba(255, 255, 255, 0.1), 0 4px 6px rgba(0, 0, 0, 0.3); /* Inner and outer shadow for depth */
+  font-size: 16px;
+  text-align: right;
+  max-width: 300px;
+  width: 200px;
+  margin-top: 60px;
+}
