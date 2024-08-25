@@ -1,14 +1,12 @@
-import React, { useState, useRef } from 'react';
+import React, { useRef } from 'react';
 import './LoungeFinderComponent.css';
 import { indiaGate, city, taj, hall, kitchen, Fountain } from '../../images';
 
 const LoungeFinderComponent = () => {
 
-    const [isVideoPlaying, setIsVideoPlaying] = useState(false);
     const videoRef = useRef(null);
 
     const handleButtonClick = () => {
-        setIsVideoPlaying(true);
         if (videoRef.current) {
             videoRef.current.play();
         }

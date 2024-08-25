@@ -1,6 +1,6 @@
 import React from "react";
-import "./CompareCardsComponent.css"; // Include this CSS file in your project
-import { sbi, hsbc, podium, amex, clipPolygon } from '../../images';
+import "./CompareCardsComponent.css";
+import { sbi, hsbc, podium, amex } from '../../images';
 
 const CompareCardsComponent = () => {
     return (

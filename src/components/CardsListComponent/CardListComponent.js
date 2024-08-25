@@ -64,7 +64,7 @@ const CardListComponent = () => {
                         </div>
                         <p className="cashback">{card.cashback}</p>
                         <p>{card.info}</p>
-                        <a href="#" className="apply-now">Apply Now →</a>
+                        <a href="/" className="apply-now">Apply Now →</a>
                     </div>
                 ))}
             </div>

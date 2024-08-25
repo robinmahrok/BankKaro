@@ -13,9 +13,9 @@ const Header = () => {
                             OUR PRODUCTS <FaChevronDown className="dropdown-icon" />
                         </button>
                         <div className="dropdown-content">
-                            <a href="#">Product 1</a>
-                            <a href="#">Product 2</a>
-                            <a href="#">Product 3</a>
+                            <a href="/">Product 1</a>
+                            <a href="/">Product 2</a>
+                            <a href="/">Product 3</a>
                         </div>
                     </div>
                     <div className="dropdown">
@@ -23,13 +23,13 @@ const Header = () => {
                             TOOLS <FaChevronDown className="dropdown-icon" />
                         </button>
                         <div className="dropdown-content">
-                            <a href="#">Tool 1</a>
-                            <a href="#">Tool 2</a>
-                            <a href="#">Tool 3</a>
+                            <a href="/">Tool 1</a>
+                            <a href="/">Tool 2</a>
+                            <a href="/">Tool 3</a>
                         </div>
                     </div>
-                    <a href="#">BLOGS</a>
-                    <a href="#">ABOUT US</a>
+                    <a href="/">BLOGS</a>
+                    <a href="/">ABOUT US</a>
                 </div>
                 <div className='signin'>
                     <button className="sign-in-btn">

@@ -12,7 +12,7 @@ const CreditCardSection = () => {
           <button className="cta-button">Find A Credit Card</button>
         </div>
         <div className='cardRegelia'>
-          <img src={RegeliaCC}></img>
+          <img alt="Personalised Offers" src={RegeliaCC}></img>
         </div>
         <div className="background-video-container">
           <video autoPlay muted loop className="background-video">
@@ -46,16 +46,16 @@ const CreditCardSection = () => {
       </div>
       <div className='credit-list'>
         <div className='card1'>
-          <img width={'100%'} src={CK}></img>
+          <img width={'100%'} src={CK} alt="Personalised Offers"></img>
         </div>
         <div className='card2'>
-          <img width={'100%'} src={BMC}></img>
+          <img width={'100%'} src={BMC} alt="Personalised Offers"></img>
         </div>
         <div className='card3'>
-          <img width={'100%'} src={CC2}></img>
+          <img width={'100%'} src={CC2} alt="Personalised Offers"></img>
         </div>
         <div className='card4'>
-          <img width={'100%'} src={LF}></img>
+          <img width={'100%'} src={LF} alt="Personalised Offers"></img>
         </div>
       </div>
       </>
