@@ -4,12 +4,13 @@
     color: #fff;
     text-align: center;
     overflow: hidden;
-    top: -40px;
+    margin-top: -40px;
+    font-family: 'PP Circa', sans-serif;
     /* Ensures no overflow from positioning */
 }
 
 .compare-title {
-    font-size: 120px;
+    font-size: 130px;
     font-weight: bold;
     color: #d1b892;
     letter-spacing: 5px;
@@ -17,13 +18,12 @@
     position: relative;
     margin: 0px;
     bottom: -94px;
-    background: linear-gradient(0deg, #0802025c 22.48%, #654e33 46.23%, #0000003d 62.48%, #D1AD83 97.23%);
+    background: linear-gradient(0deg, #0802025c 16.48%, #966B4E 54.23%, #0000003d 83.48%, #966B4E 105.23%);
     left: -35px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 1);
 }
 
 .centerpiece-container {
@@ -176,7 +176,7 @@
 .horizontal-line{
     border-bottom: 1px solid rgb(170, 136, 109);
     position: relative;
-    top: -128px;
+    top: -80px;
 }
 
 .banner {

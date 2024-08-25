@@ -1,7 +1,9 @@
 import Components from'../src/components';
 function App() {
   return (
-   <Components></Components>
+   <Components>
+
+   </Components>
   );
 }
 

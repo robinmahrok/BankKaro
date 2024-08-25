@@ -2,6 +2,7 @@
     font-size: 2.5em;
     margin-bottom: 20px;
     display: flex;
+    font-family: 'PP Circa', sans-serif;
   }
   
   .cta-button {
@@ -80,6 +81,7 @@
   .creditCardText h1{
     position: relative;
     z-index: 2;
+    font-size: 60px;
   }
   
   

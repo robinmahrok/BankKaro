@@ -4,7 +4,7 @@
     align-items: center;
     padding: 10px 20px;
     height: 64px;
-    font-family: "PP Cirka";
+    font-family: 'PP Circa', sans-serif;
   }
   
   .logo {
@@ -27,8 +27,9 @@
     color: #e5e5e5;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'PP Circa', sans-serif;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 16px;
     background: none;
     border: none;
     cursor: pointer;

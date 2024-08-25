@@ -3,8 +3,9 @@
     background-color: #DCDCDC; /* Light grey background */
     text-align: center;
     color: #333;
-    top: -55px;
+    top: -14px;
     position: relative;
+    font-family: 'PP Circa', sans-serif;
   }
   
   .impact-heading {
@@ -34,7 +35,7 @@
   }
   
   .highlight-2 {
-    color: #E8CB9E; /* Orange color for the highlight */
+    color: #9E8D72; /* Orange color for the highlight */
   }
   
   .images-section {
@@ -79,6 +80,7 @@
     width: 300px;
     position: relative;
     top: -30px;
+    font-family: 'Poppins';
   }
   
   .testimonial-author {
@@ -106,5 +108,8 @@
     width: 100%;
     position: relative;
     z-index: 0;
+  }
 
+  .testimonial-author span{
+    color: #9E8D72;
   }

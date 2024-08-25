@@ -58,6 +58,8 @@ const LoungeFinderComponent = () => {
             <div className="lounge-section">
                 {lounges.map((lounge, index) => (
                     <div key={index} className="lounge">
+                        <div className='shadow'></div>
+                        <div className='lounge-complete-data'>
                         <div className='lounge-data'>
                             <img src={lounge.image} alt={lounge.name} className="lounge-image" />
                             <div className='lounge-details'>
@@ -66,6 +68,7 @@ const LoungeFinderComponent = () => {
                             </div>
                         </div>
                         <img src={lounge.otherImage} alt={lounge.name} className="lounge-other-image" />
+                        </div>
                     </div>
                 ))}
             </div>
